@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('/img/47cd031e07098e31e857a8aa439e63c2.jpg');
+    background-image: url('img/47cd031e07098e31e857a8aa439e63c2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
