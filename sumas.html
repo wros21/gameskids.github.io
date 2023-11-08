@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de suma</title>
+    <link rel="stylesheet" href="/css/estilo.css">
+</head>
+<body id="body">
+	<header>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sumas.html">Sumas</a></li>
+                <li><a href="multi.html">Multiplicacion</a></li>
+                <li><a href="2048.html">2048</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>JUEGO DE SUMA</h1>
+	<p class="instrucciones">Las instrucciones del juego son: <br>Se te daran 15 operaciones de suma, donde deberas seleccionar la respuesta correcta, al responder se van a ir sumando 10 puntos por respuesta correcta, luego podras colocar tu nombre, le das en el boton guardar.</p>
+	<div class="center-button"> 
+        <button onclick="reiniciarJuego()">Reiniciar Juego</button>
+    </div>  
+	<div class="container">
+        <div class="izquierdo">
+            <div class="container-operacion">
+                <span id="suma">9 + 9 =</span>
+                <span class="resultado" id="resultado"> 18</span>
+            </div>
+            <span class="msj" id="msj"></span>
+        </div>
+        <div class="derecha">
+            <span class="opcion" onclick="controlarRespuesta(this)"><span id="op1">18</span></span>
+            <span class="opcion" onclick="controlarRespuesta(this)"><span id="op2">17</span></span>
+            <span class="opcion" onclick="controlarRespuesta(this)"><span id="op3">8</span></span>
+        </div>
+    </div>
+    <div id="marcador" class="textmarc">Marcador: <span id="puntaje">0</span></div>
+    <input type="text" id="nombreJugador" placeholder="Ingresa tu nombre">
+    <button onclick="agregarPuntaje()">Guardar Puntaje</button>
+    <table id="tablaMarcadores">
+        <thead>
+            <tr>
+                <th>Nombre del Jugador</th>
+                <th>Marcador</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Aquí se mostrarán los marcadores -->
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <script src="/js/script.js"></script>
+</body>
+<footer>Wilhelm Otzoy </footer>
+</html>

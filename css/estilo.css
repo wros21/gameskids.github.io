@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Arial';
+}
+body{
+	text-align: center;
+	color: #262626;
+	background-image: url(/img/image3.jpg);
+	background-size: cover;
+    background-repeat: no-repeat; 
+    color: black;
+}
+h1{
+	color: rgb(19, 19, 19);
+	padding: 50px;
+}
+.container{
+	background-color: #62cdff;
+	max-inline-size: 700px;
+	margin: auto;
+	border: 2px solid #000;
+	border-radius: 20px;
+	display: flex;
+	padding: 50px 0;
+}
+.izquierdo{
+	inline-size: 70%;
+	font-size: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.derecha{
+	inline-size: 30%;
+}
+.msj{
+	font-size: 40px;
+	block-size: 50px;
+}
+.derecha{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.opcion{
+	inline-size: 80px;
+	block-size: 80px;
+	border: 1px solid  #000;
+	font-size: 50px;
+	margin-block-end: 20px;
+	border-radius: 50%;
+	cursor: pointer;
+	background-color: #000;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.opcion:hover{
+	background-color: #262626;
+}
+table {
+    border-collapse: collapse;
+    inline-size: 100%;
+    max-inline-size: 400px;
+    margin-block-start: 20px auto;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    text-align: start;
+    padding: 8px;
+	color: #ffff;
+	background-color: #000;
+}
+th {
+    background-color: #a11515; 
+    color: #fff; 
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+}
+
+#marcador {
+    font-size: 24px;
+	background-color: #ddd; 
+}
+.menu {
+    background-color: #333; 
+    color: white; 
+    padding: 10px; 
+    text-align: center; 
+}
+
+.menu ul {
+    list-style-type: none; 
+}
+
+.menu li {
+    display: inline; 
+    margin-right: 20px; 
+}
+
+.menu a {
+    text-decoration: none; 
+    color: white; 
+}
+.contenido {
+    display: flex;
+}
+
+.juego {
+    flex: 1; 
+    padding: 20px;
+}
+
+.instrucciones {
+    flex: 1; 
+    padding: 20px;
+	color: #fff;
+	background-color: #333;
+	text-decoration: double;
+	inline-size: auto;
+
+}
+
+.instrucciones textarea {
+    inline-size: 100%; 
+}
+.centered-box {
+    background-color: rgb(62, 9, 9);
+    color: black; 
+    inline-size: 80%; 
+    margin: 0 auto; 
+    padding: 20px; 
+    text-align: center; 
+}
+.center-button {
+    text-align: center;
+    margin-block-start: 20px; 
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.textmarc {
+	font-weight: bold;
+	font-size: 36px;
+	background-color: #a11515;
+	margin: 0 auto; 
+    padding: 10px; 
+    text-align: center; 
+	inline-size: 20%;
+
+}

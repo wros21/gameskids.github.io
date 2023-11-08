@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    font-family: "Open Sans", "Lato", sans-serif;
+    background-image: url(/img/image2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    margin: 20px 0; 
+    color: black;
+    font-size: 80px;
+    line-height: 0.7;
+}
+
+.menu {
+    margin-block-start: 0px; 
+    background-color: #333;
+    color:white;
+    padding: 10px;
+    text-align: center;
+    text-indent: 0%;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    text-align: center;
+}
+
+.menu li {
+    margin-right: 20px; 
+    display: inline;
+    text-align: end;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #FFFF; 
+}
+
+.menu a:hover {
+    color: #0056b3; 
+}
+
+.container {
+    width: 468px;
+    margin-top: 10px; 
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.grid {
+    width: 456px;
+    height: 456px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    border-radius: 6px;
+    background-color: beige;
+    border: 7px solid black;
+}
+
+.grid div {
+    margin: 7px;
+    width: 100px;
+    height: 100px;
+    color: black;
+    font-size: 60px;
+    line-height: 1.6;
+    font-weight: bold;
+    border-radius: 3px;
+    text-align: center;
+    background: whitesmoke;
+}
+
+.score-container {
+    inline-size: 70px;
+    block-size: 60px;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    background: black;
+}
+
+#score {
+    font-size: 30px;
+}
+
+.score-title {
+    font-size: 16px;
+}
