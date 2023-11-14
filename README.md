@@ -8,7 +8,7 @@ Para comenzar, clona el repositorio en tu máquina local:
 
 bash
 Copy code
-git clone https://github.com/tu-usuario/tu-repo.git
+# git clone https://github.com/tu-usuario/tu-repo.git
 cd tu-repo
 
 Configuración
